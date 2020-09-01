@@ -11,5 +11,5 @@ This Trie Library provides the following functionalities using Trie Data Structu
 
 Implemented in C++ Language.
 
-Note :- For Serializing the trie to a string, i have used special characters like '>' '\[\' and ']'. 
+Note :- For Serializing the trie to a string, i have used special characters like '>', '\[\' and ']'. 
 So don't use these characters in words while using this library.
