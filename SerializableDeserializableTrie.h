@@ -157,10 +157,9 @@ class Trie {
             temp = temp->children[word[i]];
         }
 
-        return true;
+        return temp->isTerminal;
     }
-
-    //second variable - present is just to determine if this word is valid word or not.
+ 
     int wordCountWithPrefix(string word) {
         if (root == NULL)
             return 0;
